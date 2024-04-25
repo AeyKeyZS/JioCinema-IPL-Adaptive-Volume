@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JioCinema IPL Adaptive Volume</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automatically adjusts the volume during advertisements while watching IPL matches. Restores the volume when the match resumes. ">
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        body {
+            width: 170px;
+            text-align: center;
+            padding: 10px;
+            background-color: #252525;
+            color: #ffffff;
+        }
+
+        button {
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 3px 10px;
+            cursor: pointer;
+        }
+
+        #start {
+            background-color: #d9008d;
+        }
+
+        #stop {
+            background-color: #b17a14;
+        }
+
+        a {
+            color: #d9008d;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; text-align: left;">
+        <img src="icons/jadapvol.png" style="width: 40px;height: 40px;border-radius: 5px;" alt="logo">
+        <h3 style="display: inline;margin: 0;margin-left: 10px;">JioCinema IPL Adaptive Volume</h3>
+    </div>
+    <p>Automaticaly adjusts volume during Advertisements.</p>
+    <small>
+        <a href="https://aeykeyzs.github.io/" target="_blank" rel="noopener noreferrer">Help</a>
+    </small>
+    &nbsp;
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    &nbsp;
+    <small>
+        <a href="https://aeykeyzs.github.io/" target="_blank" rel="noopener noreferrer">Author</a>
+    </small>
+    <div>
+        <small id="status" style="color: rgb(56, 209, 56);">Running...</small>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
