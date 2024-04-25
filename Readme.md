@@ -7,6 +7,8 @@ This Chrome extension automatically manages your volume during Indian Premier Le
 * **Reduces volume during commercials:** No more jarring volume spikes during ad breaks!
 * **Restores original volume after commercials:** Enjoy the match at your preferred volume seamlessly.
 
+### Web Browser
+**This extension only works on Google Chrome and Brave Browsers**
 
 ### Installation
 
